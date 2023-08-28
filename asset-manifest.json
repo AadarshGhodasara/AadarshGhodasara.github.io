@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.4a705267.css",
-    "main.js": "/static/js/main.0372cf4e.js",
+    "main.js": "/static/js/main.14cfed35.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/AboutMeImg.png": "/static/media/AboutMeImg.241325fa8036e562cb31.png",
-    "static/media/HomePageImg.png": "/static/media/HomePageImg.4aca52fadf689f1d4bfd.png",
+    "static/media/AboutMeImg.png": "/static/media/AboutMeImg.0049652492c22d73116f.png",
+    "static/media/HomePageImg.png": "/static/media/HomePageImg.ea2aa35549dded05274e.png",
     "static/media/Aadarsh-Ghodasara-CV.pdf": "/static/media/Aadarsh-Ghodasara-CV.ceff9525f545f78c19f7.pdf",
     "static/media/AG_Logo.PNG": "/static/media/AG_Logo.b44592b777fe1139e949.PNG",
     "static/media/AG_Dark_Mode_Logo.PNG": "/static/media/AG_Dark_Mode_Logo.13f9d3aefe5e40b365b0.PNG",
     "index.html": "/index.html",
     "main.4a705267.css.map": "/static/css/main.4a705267.css.map",
-    "main.0372cf4e.js.map": "/static/js/main.0372cf4e.js.map",
+    "main.14cfed35.js.map": "/static/js/main.14cfed35.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a705267.css",
-    "static/js/main.0372cf4e.js"
+    "static/js/main.14cfed35.js"
   ]
 }
