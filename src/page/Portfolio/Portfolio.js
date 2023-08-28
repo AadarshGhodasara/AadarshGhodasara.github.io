@@ -214,16 +214,10 @@ const Portfolio = () => {
         <div className="skills-container" data-aos="fade-up">
           <div className="bars">
             <div className="bars-box">
-              <h3>C</h3>
-              <span>80%</span>
+              <h3>JAVA</h3>
+              <span>50%</span>
               <div className="light-bar"></div>
-              <div className="percent-bar bar-80"></div>
-            </div>
-            <div className="bars-box">
-              <h3>C++</h3>
-              <span>60%</span>
-              <div className="light-bar"></div>
-              <div className="percent-bar bar-60"></div>
+              <div className="percent-bar bar-50"></div>
             </div>
             <div className="bars-box">
               <h3>HTML</h3>
@@ -232,7 +226,7 @@ const Portfolio = () => {
               <div className="percent-bar bar-80"></div>
             </div>
             <div className="bars-box">
-              <h3>CSS</h3>
+              <h3>REACT NATIVE</h3>
               <span>70%</span>
               <div className="light-bar"></div>
               <div className="percent-bar bar-70"></div>
@@ -243,14 +237,14 @@ const Portfolio = () => {
               <div className="light-bar"></div>
               <div className="percent-bar bar-60"></div>
             </div>
+            <div className="bars-box">
+              <h3>Graphql</h3>
+              <span>80%</span>
+              <div className="light-bar"></div>
+              <div className="percent-bar bar-90"></div>
+            </div>
           </div>
           <div className="bars">
-            <div className="bars-box">
-              <h3>JAVA</h3>
-              <span>50%</span>
-              <div className="light-bar"></div>
-              <div className="percent-bar bar-50"></div>
-            </div>
             <div className="bars-box">
               <h3>PYTHON</h3>
               <span>60%</span>
@@ -258,7 +252,7 @@ const Portfolio = () => {
               <div className="percent-bar bar-60"></div>
             </div>
             <div className="bars-box">
-              <h3>REACT NATIVE</h3>
+              <h3>CSS</h3>
               <span>70%</span>
               <div className="light-bar"></div>
               <div className="percent-bar bar-70"></div>
@@ -266,6 +260,18 @@ const Portfolio = () => {
             <div className="bars-box">
               <h3>REACT JS</h3>
               <span>90%</span>
+              <div className="light-bar"></div>
+              <div className="percent-bar bar-90"></div>
+            </div>
+            <div className="bars-box">
+              <h3>Typescript</h3>
+              <span>80%</span>
+              <div className="light-bar"></div>
+              <div className="percent-bar bar-90"></div>
+            </div>
+            <div className="bars-box">
+              <h3>Next JS</h3>
+              <span>50%</span>
               <div className="light-bar"></div>
               <div className="percent-bar bar-90"></div>
             </div>
