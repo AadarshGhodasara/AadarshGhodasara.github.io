@@ -3,11 +3,11 @@ import { Button, Form } from "antd";
 import emailjs from "@emailjs/browser";
 import { toast, ToastContainer } from "react-toastify";
 import AboutMeImg from "../../assets/images/AboutMeImg.png";
-import HomePageImg from "../../assets/images/HomePageImg.PNG";
+import HomePageImg from "../../assets/images/HomePageImg.png";
 import cv from "../../assets/pdf/Aadarsh-Ghodasara-CV.pdf";
 import { Link } from "react-scroll";
 import AOS from "aos";
-import { BackTop, Tooltip } from "antd";
+import { Tooltip, BackTop } from "antd";
 import { ArrowUpOutlined } from "@ant-design/icons";
 import "aos/dist/aos.css";
 import "./Portfolio.css";
@@ -199,7 +199,7 @@ const Portfolio = () => {
                 <a href="mailto:someone@example.com">aadarshgh2000@gmail.com</a>
               </div>
             </div>
-            <a href={cv} target="_blank" class="btn">
+            <a href={cv} target="_blank" className="btn">
               Download CV
             </a>
           </div>
@@ -462,32 +462,32 @@ const Portfolio = () => {
       </section>
 
       {/* Footer Section */}
-      <div class="footer">
+      <div className="footer">
         <h2>Follow Us</h2>
-        <div class="footer-social">
+        <div className="footer-social">
           <a href="https://github.com/AadarshGhodasara" target="_blank">
-            <i class="bx bxl-github github"></i>
+            <i className="bx bxl-github github"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/aadarsh-ghodasara/"
             target="_blank"
           >
-            <i class="bx bxl-linkedin linkedin"></i>
+            <i className="bx bxl-linkedin linkedin"></i>
           </a>
           <a href="https://twitter.com/aadarsh_king/" target="_blank">
-            <i class="bx bxl-twitter twitter"></i>
+            <i className="bx bxl-twitter twitter"></i>
           </a>
           <a href="https://www.facebook.com/patel.adarsh.904" target="_blank">
-            <i class="bx bxl-facebook facebook"></i>
+            <i className="bx bxl-facebook facebook"></i>
           </a>
           <a href="https://www.instagram.com/aadarsh_king_/" target="_blank">
-            <i class="bx bxl-instagram instagram"></i>
+            <i className="bx bxl-instagram instagram"></i>
           </a>
         </div>
       </div>
 
       {/* Copyright Section */}
-      <div class="copyright">
+      <div className="copyright">
         <p>© Aadarsh Ghodasara | All Right Reserved.</p>
       </div>
 
@@ -506,11 +506,9 @@ const Portfolio = () => {
       <ToastContainer />
 
       <BackTop>
-        <Tooltip title="Back To Top">
-          <div className="BackToTopScroll">
-            <ArrowUpOutlined />
-          </div>
-        </Tooltip>
+        <div className="BackToTopScroll">
+          <ArrowUpOutlined />
+        </div>
       </BackTop>
     </div>
   );
